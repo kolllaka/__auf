@@ -28,6 +28,7 @@
 		align-items: center;
 		gap: 120px;
 		justify-content: end;
+		margin-bottom: 50px;
 		span{
 			color: $optional;
 			font-family: Nothing You Could Do;
@@ -47,7 +48,7 @@
 
 	// .page__gallery
 	&__gallery {
-		margin: 50px 130px;
+		margin: 0 130px 50px;
 		height: 500px;
 		border: 1px solid $optional;
 	}
@@ -146,7 +147,7 @@
 	// .card__row
 	&__row {
 		text-align: center;
-		max-width: 300px;
+		max-width: 280px;
 		flex: 0 0 auto;
 		&-d{
 			flex: 1 0 auto;
