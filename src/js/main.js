@@ -5,8 +5,9 @@ const maxHeightPage = Math.max(
 	document.body.offsetHeight, document.documentElement.offsetHeight,
 	document.body.clientHeight, document.documentElement.clientHeight
 );
-let scrollLineWidthMax = 80
+let scrollLineWidthMax = 60
 let scrollLineWidthMin = 10
+scrollLine.style.width = scrollLineWidthMax + "%"
 
 console.log("maxHeightPage: ", maxHeightPage - document.documentElement.clientHeight);
 

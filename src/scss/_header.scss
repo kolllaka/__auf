@@ -18,9 +18,9 @@
 	&__navbar {
 		padding: 10px 40px;
 		display: flex;
-		justify-content: space-between;
+		justify-content: center;
 		align-items: center;
-		gap: 90px;
+		gap: 75px;
 		height: 100%;
 		width: 100%;
 	}
@@ -41,7 +41,7 @@
 
 	// .header__link
 	&__link{
-		color: $textHeader;
+		color: $red;
 		font-family: Maven Pro;
 		font-size: 24px;
 		font-style: normal;
@@ -58,7 +58,7 @@
 			font-style: normal;
 			font-weight: 600;
 			line-height: normal;
-			color: $textHeader;
+			color: $red;
 		}
 	}
 
@@ -66,9 +66,8 @@
 
 	&__line {
 		position: relative;
-		width: 80%;
 		height: 2px;
-		background-color: $textHeader;
+		background-color: $red;
 	}
 }
 

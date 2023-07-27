@@ -73,7 +73,7 @@ h6 {
 }
 
 .container {
-  max-width: 1140px;
+  max-width: 1480px;
   width: 100%;
   margin: 0 auto;
   padding: 0 20px;
@@ -82,7 +82,7 @@ h6 {
 body {
   font-family: "Gilroy", sans-serif;
   background-color: #291C1C;
-  color: #FFFFFF;
+  color: #FAFAFA;
 }
 
 body.locked {
@@ -147,13 +147,13 @@ a:hover {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  gap: 90px;
+  gap: 75px;
   height: 100%;
   width: 100%;
 }
@@ -191,7 +191,6 @@ a:hover {
 
 .header__line {
   position: relative;
-  width: 80%;
   height: 2px;
   background-color: #291C1C;
 }
@@ -230,7 +229,7 @@ a:hover {
 }
 
 .heropage__title {
-  color: #FFFFFF;
+  color: #FAFAFA;
   font-family: Maven Pro;
   font-size: 96px;
   font-style: normal;
@@ -250,7 +249,7 @@ a:hover {
 }
 
 .heropage__text span {
-  color: #FFFFFF;
+  color: #FAFAFA;
   font-family: Maven Pro;
   font-size: 24px;
   font-style: normal;
@@ -276,7 +275,7 @@ a:hover {
 }
 
 .btn span {
-  color: #FFFFFF;
+  color: #FAFAFA;
   text-align: center;
   font-family: Maven Pro;
   font-size: 36px;
