@@ -1,7 +1,4 @@
 .page {
-	min-height: 100vh;
-
-
 	// .page__bg
 	&__bg {
 		img{
@@ -17,6 +14,64 @@
 
 	// .page__hero
 	&__hero {
+	}
+
+	// .page__content
+	&__content {
+		padding-top: 110px;
+		padding-bottom: 220px;
+	}
+
+	// .page__title
+	&__title {
+		display: flex;
+		align-items: center;
+		gap: 120px;
+		justify-content: end;
+		span{
+			color: $optional;
+			font-family: Nothing You Could Do;
+			font-size: 96px;
+			font-style: normal;
+			font-weight: 400;
+			line-height: normal;
+		}
+	}
+
+	// .page__titleline
+	&__titleline {
+		width: 50%;
+		height: 5px;
+		background-color: $optional;
+	}
+
+	// .page__gallery
+	&__gallery {
+		margin: 50px 130px;
+		height: 500px;
+		border: 1px solid $optional;
+	}
+
+	// .page__btns
+	&__btns {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+
+	// .page__btn
+	&__btn {
+		width: 400px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	// .page__cards
+	&__cards {
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+		gap: 20px;
 	}
 }
 
@@ -71,65 +126,87 @@
 	}
 }
 
-.container {
-}
-.page {
-
-		// .page__content
-
-		&__content {
-			padding-top: 110px;
-			padding-bottom: 220px;
-		}
-
-		// .page__title
-
-		&__title {
-			display: flex;
-			align-items: center;
-			gap: 120px;
-			justify-content: end;
-			span{
-				color: $optional;
-				font-family: Nothing You Could Do;
-				font-size: 96px;
-				font-style: normal;
-				font-weight: 400;
-				line-height: normal;
-			}
-		}
-
-		// .page__titleline
-
-		&__titleline {
-			width: 50%;
-			height: 5px;
-			background-color: $optional;
-		}
-
-		// .page__gallery
-
-		&__gallery {
-			margin: 50px 130px;
-			height: 500px;
-			border: 1px solid $optional;
-		}
-
-		// .page__btns
-
-		&__btns {
-			display: flex;
-			align-items: center;
-			justify-content: center;
-		}
-
-		// .page__btn
-		&__btn {
-			width: 400px;
-			display: flex;
-			justify-content: center;
-			align-items: center;
-		}
-}
 .gallery {
+}
+
+.card {
+	border-radius: 8px;
+	border: 1px solid $white;
+	padding: 100px 23px;
+	// .card__body
+	&__body {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: flex-end;
+		gap: 20px;
+		height: 100%;
+	}
+
+	// .card__row
+	&__row {
+		text-align: center;
+		max-width: 300px;
+		flex: 0 0 auto;
+		&-d{
+			flex: 1 0 auto;
+		}
+	}
+
+	// .card__title
+	&__title {
+		color: $white;
+		font-family: Maven Pro;
+		font-size: 36px;
+		font-style: normal;
+		font-weight: 700;
+		line-height: normal;
+	}
+
+	// .card__text
+	&__text {
+		color: $white;
+		text-align: center;
+		font-family: Maven Pro;
+		font-size: 20px;
+		font-style: normal;
+		font-weight: 400;
+		line-height: normal;
+	}
+
+	// .card__desc
+	&__desc {
+		span{
+			display: block;
+
+			color: $white;
+			font-family: Maven Pro;
+			font-size: 24px;
+			font-style: normal;
+			font-weight: 400;
+			line-height: normal;
+		}
+	}
+
+	// .card__cost
+	&__cost {
+		color: $white;
+		font-family: Maven Pro;
+		font-size: 36px;
+		font-style: normal;
+		font-weight: 500;
+		line-height: normal;
+	}
+
+	// .card__btns
+	&__btns {
+		display: flex;
+	}
+
+	// .card__btn
+	&__btn {
+		padding: 21px 48px;
+		span{
+		}
+	}
 }

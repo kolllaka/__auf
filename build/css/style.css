@@ -217,10 +217,6 @@ a:hover {
   display: none;
 }
 
-.page {
-  min-height: 100vh;
-}
-
 .page__bg img {
   z-index: -1;
   position: absolute;
@@ -230,6 +226,76 @@ a:hover {
   width: 100vw;
   -o-object-fit: cover;
      object-fit: cover;
+}
+
+.page__content {
+  padding-top: 110px;
+  padding-bottom: 220px;
+}
+
+.page__title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 120px;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+}
+
+.page__title span {
+  color: #D7CFCF;
+  font-family: Nothing You Could Do;
+  font-size: 96px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.page__titleline {
+  width: 50%;
+  height: 5px;
+  background-color: #D7CFCF;
+}
+
+.page__gallery {
+  margin: 50px 130px;
+  height: 500px;
+  border: 1px solid #D7CFCF;
+}
+
+.page__btns {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.page__btn {
+  width: 400px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.page__cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
 }
 
 .heropage {
@@ -296,68 +362,90 @@ a:hover {
   width: 400px;
 }
 
-.page__content {
-  padding-top: 110px;
-  padding-bottom: 220px;
+.card {
+  border-radius: 8px;
+  border: 1px solid #FAFAFA;
+  padding: 100px 23px;
 }
 
-.page__title {
+.card__body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  gap: 120px;
   -webkit-box-pack: end;
       -ms-flex-pack: end;
-          justify-content: end;
+          justify-content: flex-end;
+  gap: 20px;
+  height: 100%;
 }
 
-.page__title span {
-  color: #D7CFCF;
-  font-family: Nothing You Could Do;
-  font-size: 96px;
+.card__row {
+  text-align: center;
+  max-width: 300px;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 auto;
+          flex: 0 0 auto;
+}
+
+.card__row-d {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 0 auto;
+          flex: 1 0 auto;
+}
+
+.card__title {
+  color: #FAFAFA;
+  font-family: Maven Pro;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.card__text {
+  color: #FAFAFA;
+  text-align: center;
+  font-family: Maven Pro;
+  font-size: 20px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
 }
 
-.page__titleline {
-  width: 50%;
-  height: 5px;
-  background-color: #D7CFCF;
+.card__desc span {
+  display: block;
+  color: #FAFAFA;
+  font-family: Maven Pro;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
 
-.page__gallery {
-  margin: 50px 130px;
-  height: 500px;
-  border: 1px solid #D7CFCF;
+.card__cost {
+  color: #FAFAFA;
+  font-family: Maven Pro;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
 }
 
-.page__btns {
+.card__btns {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
 }
 
-.page__btn {
-  width: 400px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+.card__btn {
+  padding: 21px 48px;
 }
 
 @media (max-width: 1339.98px) {

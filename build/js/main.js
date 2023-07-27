@@ -7,16 +7,18 @@ const maxHeightPage = Math.max(
 );
 let scrollLineWidthMax = 60
 let scrollLineWidthMin = 10
-scrollLine.style.width = scrollLineWidthMax + "%"
+mathWidthOfLine = () => {
+	scrollLine.style.width = scrollLineWidthMax - (scrollLineWidthMax - scrollLineWidthMin) * (window.pageYOffset / (maxHeightPage - document.documentElement.clientHeight)) + "%"
+}
+mathWidthOfLine()
 
 console.log("maxHeightPage: ", maxHeightPage - document.documentElement.clientHeight);
 
 addEventListener("scroll", () => {
-	width = scrollLineWidthMax - (scrollLineWidthMax - scrollLineWidthMin) * (window.pageYOffset / (maxHeightPage - document.documentElement.clientHeight))
-	console.log(window.pageYOffset);
-
-	scrollLine.style.width = width + "%"
+	mathWidthOfLine()
 })
+
+
 
 
 // Custom Scripts
