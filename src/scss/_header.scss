@@ -1,5 +1,5 @@
 .header {
-	z-index: 2;
+	z-index: 10;
 	position: fixed;
 	width: 100%;
 	height: 110px;
@@ -58,11 +58,6 @@
 
 	&__logo {
 		a{
-			font-family: Maven Pro;
-			font-size: 40px;
-			font-style: normal;
-			font-weight: 600;
-			line-height: normal;
 			color: $red;
 		}
 	}

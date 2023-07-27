@@ -50,12 +50,21 @@ a {
 	}
 }
 
+.logo {
+	font-family: Maven Pro;
+	font-size: 40px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: normal;
+}
+
 .btn {
 	cursor: pointer;
 	border-radius: 8px;
 	background-color: $btn;
 	border: 1px solid transparent;
 	padding: 26px;
+	transition: all 0.3s ease 0s;
 	span{
 		color: $white;
 		text-align: center;
@@ -67,14 +76,63 @@ a {
 	}
 
 	&:hover {
+		transition: all .3s ease 0s;
 		border: 1px solid $white;
 		background-color: transparent;
 	}
 
 	&:active {
+		transition: all 0.3s ease 0s;
 		background-color: $btn;
 		border: 1px solid transparent;
 		opacity: .3;
+	}
+}
+
+
+.checkbox {
+	cursor: pointer;
+	display: flex;
+	align-items: center;
+	justify-content: start;
+	gap: 15px;
+	input{
+		display: none;
+		opacity: 0;
+		transition: all 0.3s ease 0s;
+		&:checked+.checkbox__mark::after {
+			transition: all 0.3s ease 0s;
+			transform: scale(.85);
+		}
+	}
+
+	// .checkbox__mark
+	&__mark {
+		flex: 0 0 17px;
+		height: 17px;
+		background-color: $white;
+		border-radius: 50%;
+		position: relative;
+		&::after{
+			transition: all 0.3s ease 0s;
+			content: '';
+			display: block;
+			position: absolute;
+			inset: 0;
+			border-radius: 50%;
+			background-color: $btn;
+			transform: scale(0);
+		}
+	}
+
+	// .checkbox__text
+	&__text {
+		color: $white;
+		font-family: Maven Pro;
+		font-size: 24px;
+		font-style: normal;
+		font-weight: 400;
+		line-height: normal;
 	}
 }
 

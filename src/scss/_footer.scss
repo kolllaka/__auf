@@ -1,0 +1,59 @@
+.footer {
+	padding: 40px 20px;
+	// .footer__body
+	&__body {
+	}
+
+	// .footer__top
+	&__top {
+		display: flex;
+		justify-content: space-around;
+		align-items: flex-start;
+		gap: 120px;
+		margin-bottom: 40px;
+	}
+
+	// .footer__column
+	&__column {
+		display: flex;
+		flex-direction: column;
+		gap: 20px;
+	}
+
+	// .footer__logo
+	&__logo {
+		a{
+			color: $white;
+		}
+	}
+
+	// .footer__socials
+	&__socials {
+	}
+
+	// .footer__item
+	&__item {
+		color: $white;
+		font-family: Maven Pro;
+		font-size: 24px;
+		font-style: normal;
+		font-weight: 400;
+		line-height: normal;
+	}
+
+	// .footer__bottom
+	&__bottom {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		span {
+			color: rgba($white, 0.60);
+			font-family: Maven Pro;
+			font-size: 16px;
+			font-style: normal;
+			font-weight: 400;
+			line-height: normal;
+		}
+	}
+}
+
