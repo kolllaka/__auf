@@ -28,6 +28,8 @@ body {
 	&.locked{
 		overflow: hidden;
 	}
+	background-color: $background;
+	color: $white;
 }
 
 .wrapper {
@@ -38,6 +40,11 @@ body {
 	overflow-x: hidden;
 }
 
+a {
+	&:hover{
+		opacity: .7;
+	}
+}
 
 // Images
 ._ibg {
