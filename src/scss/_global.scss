@@ -45,12 +45,16 @@ a {
 	&:hover{
 		opacity: .7;
 	}
+	&:active{
+		opacity: .3;
+	}
 }
 
 .btn {
 	cursor: pointer;
 	border-radius: 8px;
 	background-color: $btn;
+	border: 1px solid transparent;
 	padding: 26px;
 	span{
 		color: $white;
@@ -60,6 +64,17 @@ a {
 		font-style: normal;
 		font-weight: 500;
 		line-height: normal;
+	}
+
+	&:hover {
+		border: 1px solid $white;
+		background-color: transparent;
+	}
+
+	&:active {
+		background-color: $btn;
+		border: 1px solid transparent;
+		opacity: .3;
 	}
 }
 
