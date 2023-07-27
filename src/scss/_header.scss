@@ -2,13 +2,12 @@
 	z-index: 10;
 	position: fixed;
 	width: 100%;
-	height: 110px;
+	height: 105px;
 	background-color: rgba($color: #E7E8E2, $alpha: .2);
 	transition: all 0.3s ease 0s;
 	&:hover{
 		transition: all 0.3s ease 0s;
 		background-color: rgba($color: #E7E8E2, $alpha: 1);
-		height: 110px;
 	}
 	
 	// .header__body
