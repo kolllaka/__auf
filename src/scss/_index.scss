@@ -1,0 +1,82 @@
+.page {
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: end;
+
+	// .page__bg
+	&__bg {
+		img{
+			z-index: -1;
+			position: absolute;
+			top: 0;
+			left: 0;
+			height: 100vh;
+			width: 100vw;
+			object-fit: cover;
+		}
+	}
+
+	// .page__hero
+	&__hero {
+	}
+}
+
+.heropage {
+	padding: 0 80px;
+	// .heropage__title
+	&__title {
+		color: $white;
+		font-family: Maven Pro;
+		font-size: 96px;
+		font-style: normal;
+		font-weight: 600;
+		line-height: normal;
+		span{
+			padding-left: 200px;
+			display: block;
+			font-family: Nothing You Could Do;
+		}
+		margin-bottom: 60px;
+	}
+
+	// .heropage__text
+	&__text {
+		span{
+			color: $white;
+			font-family: Maven Pro;
+			font-size: 24px;
+			font-style: normal;
+			font-weight: 500;
+			line-height: normal;
+		}
+
+		margin-bottom: 50px;
+	}
+
+	//.heropage__btns
+	&__btns{
+		margin-bottom: 200px;
+		display: flex;
+	}
+
+	// .heropage__btn
+	&__btn {
+		padding: 26px 40px;
+	}
+}
+
+.btn {
+	cursor: pointer;
+	border-radius: 8px;
+	background-color: $btn;
+	span{
+		color: $white;
+		text-align: center;
+		font-family: Maven Pro;
+		font-size: 36px;
+		font-style: normal;
+		font-weight: 500;
+		line-height: normal;
+	}
+}
