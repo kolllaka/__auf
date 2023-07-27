@@ -83,6 +83,7 @@ body {
   font-family: "Gilroy", sans-serif;
   background-color: #291C1C;
   color: #FAFAFA;
+  overflow-x: hidden;
 }
 
 body.locked {
