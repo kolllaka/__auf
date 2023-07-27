@@ -46,6 +46,22 @@ a {
 	}
 }
 
+.btn {
+	cursor: pointer;
+	border-radius: 8px;
+	background-color: $btn;
+	padding: 26px;
+	span{
+		color: $white;
+		text-align: center;
+		font-family: Maven Pro;
+		font-size: 36px;
+		font-style: normal;
+		font-weight: 500;
+		line-height: normal;
+	}
+}
+
 // Images
 ._ibg {
 	position: relative;
