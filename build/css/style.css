@@ -431,7 +431,7 @@ a:active {
 
 .page__gallery {
   margin: 0 130px 50px;
-  padding: 0 30px;
+  max-width: 1100px;
 }
 
 .page__btns {
@@ -634,7 +634,7 @@ a:active {
   position: relative;
   border-radius: 8px;
   border: 1px solid #FAFAFA;
-  padding: 100px 23px;
+  padding: 110px 23px;
 }
 
 .card__body {
@@ -717,7 +717,7 @@ a:active {
   padding: 21px 48px;
 }
 
-.card__btn:active ~ .card__effect {
+.card:hover .card__effect {
   -webkit-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;

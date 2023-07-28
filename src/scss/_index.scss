@@ -73,7 +73,7 @@
 	// .page__gallery
 	&__gallery {
 		margin: 0 130px 50px;
-		padding: 0 30px;
+		max-width: 1100px;
 	}
 
 	// .page__btns
@@ -154,7 +154,7 @@
 	justify-content: center;
 	grid-template-columns: repeat(21, 1fr);
 	grid-template-rows:  repeat(25, 1fr);
-	aspect-ratio: 1/1;
+	aspect-ratio: 1 / 1;
 	// .gallery__item
 	&__item {
 	}
@@ -263,7 +263,7 @@
 	position: relative;
 	border-radius: 8px;
 	border: 1px solid $white;
-	padding: 100px 23px;
+	padding: 110px 23px;
 	// .card__body
 	&__body {
 		display: flex;
@@ -339,15 +339,14 @@
 		padding: 21px 48px;
 		span{
 		}
-
-		&:active {
-			&~.card__effect {
-				transition: all .3s ease 0s;
-				opacity: 1;
-			}
-		}
 	}
 
+	&:hover {
+		& .card__effect {
+			transition: all .3s ease 0s;
+			opacity: 1;
+		}
+	}
 	// .card__effect
 	&__effect {
 		transition: all 0.3s ease 0s;
