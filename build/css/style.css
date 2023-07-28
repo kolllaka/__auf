@@ -997,15 +997,15 @@ a:active {
 }
 
 .footer__sociallink-in:hover path {
-  stroke: red;
+  stroke: #C13584;
 }
 
 .footer__sociallink-tw:hover path {
-  stroke: cyan;
+  stroke: #0088CC;
 }
 
 .footer__sociallink-fb:hover path {
-  stroke: blue;
+  stroke: #3B5998;
 }
 
 .footer__item {

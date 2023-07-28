@@ -42,21 +42,21 @@
 		&-in {
 			&:hover {
 				path {
-					stroke: red;
+					stroke: $instargam;
 				}
 			}
 		}
 		&-tw {
 			&:hover {
 				path {
-					stroke: cyan;
+					stroke: $telegram;
 				}
 			}
 		}
 		&-fb {
 			&:hover {
 				path {
-					stroke: blue;
+					stroke: $facebook;
 				}
 			}
 		}
