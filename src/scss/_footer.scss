@@ -29,6 +29,15 @@
 
 	// .footer__socials
 	&__socials {
+		display: flex;
+		gap: 29px;
+		align-items: center;
+	}
+
+	// .footer__sociallink
+	&__sociallink {
+		font-size: 31px;
+		color: $white;
 	}
 
 	// .footer__item
