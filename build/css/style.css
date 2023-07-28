@@ -418,7 +418,7 @@ a:active {
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: end;
-  margin-bottom: 50px;
+  margin-bottom: 100px;
 }
 
 .page__title span {
