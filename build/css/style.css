@@ -403,6 +403,10 @@ a:active {
   min-height: 1024px;
 }
 
+.page__slider {
+  margin-bottom: 110px;
+}
+
 .page__title {
   display: -webkit-box;
   display: -ms-flexbox;
