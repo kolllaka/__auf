@@ -378,6 +378,7 @@ a:active {
 
 .page__content {
   position: relative;
+  min-height: 100vh;
 }
 
 .page__img {
@@ -400,7 +401,7 @@ a:active {
 }
 
 .page__aboutme {
-  min-height: 1024px;
+  min-height: 100vh;
 }
 
 .page__reviews {
@@ -821,6 +822,7 @@ a:active {
   max-width: 400px;
   width: 100%;
   height: 224px;
+  resize: none;
   color: #FAFAFA;
   font-family: "MavenPro";
   font-size: 24px;

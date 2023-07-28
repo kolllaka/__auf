@@ -19,6 +19,7 @@
 	// .page__content
 	&__content {
 		position: relative;
+		min-height: 100vh;
 	}
 
 	// .page__img
@@ -42,7 +43,7 @@
 
 	// .page__aboutme
 	&__aboutme {
-		min-height: 1024px;
+		min-height: 100vh;
 	}
 
 	// .page__reviews
@@ -420,6 +421,7 @@
 			max-width: 400px;
 			width: 100%;
 			height: 224px;
+			resize: none;
 
 			color: $white;
 			font-family: "MavenPro";
