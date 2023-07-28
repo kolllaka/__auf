@@ -45,9 +45,13 @@
 		min-height: 1024px;
 	}
 
+	// .page__reviews
+	&__reviews {
+		min-height: 100vh;
+	}
+
 	// .page__slider
 	&__slider {
-		margin-bottom: 110px;
 	}
 
 	// .page__title
