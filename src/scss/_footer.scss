@@ -38,6 +38,28 @@
 	&__sociallink {
 		font-size: 31px;
 		color: $white;
+
+		&-in {
+			&:hover {
+				path {
+					stroke: red;
+				}
+			}
+		}
+		&-tw {
+			&:hover {
+				path {
+					stroke: cyan;
+				}
+			}
+		}
+		&-fb {
+			&:hover {
+				path {
+					stroke: blue;
+				}
+			}
+		}
 	}
 
 	// .footer__item

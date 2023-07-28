@@ -996,6 +996,18 @@ a:active {
   color: #FAFAFA;
 }
 
+.footer__sociallink-in:hover path {
+  stroke: red;
+}
+
+.footer__sociallink-tw:hover path {
+  stroke: cyan;
+}
+
+.footer__sociallink-fb:hover path {
+  stroke: blue;
+}
+
 .footer__item {
   color: #FAFAFA;
   font-family: "MavenPro";
