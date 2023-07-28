@@ -1,6 +1,40 @@
 @font-face {
-	font-family: 'Gilroy';
-	src: url('../fonts/Gilroy-Regular.eot');
-	font-weight: normal;
+	font-family: "MavenPro";
+	font-display: swap;
+	src: url("../fonts/woff/MavenPro-Regular.woff") format("woff"), url("../fonts/woff2/MavenPro-Regular.woff2") format("woff2");
+	font-weight: 400;
 	font-style: normal;
 }
+
+@font-face {
+	font-family: "MavenPro";
+	font-display: swap;
+	src: url("../fonts/woff/MavenPro-Medium.woff") format("woff"), url("../fonts/woff2/MavenPro-Medium.woff2") format("woff2");
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "MavenPro";
+	font-display: swap;
+	src: url("../fonts/woff/MavenPro-SemiBold.woff") format("woff"), url("../fonts/woff2/MavenPro-SemiBold.woff2") format("woff2");
+	font-weight: 600;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "MavenPro";
+	font-display: swap;
+	src: url("../fonts/woff/MavenPro-Bold.woff") format("woff"), url("../fonts/woff2/MavenPro-Bold.woff2") format("woff2");
+	font-weight: 700;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "NothingYouCouldDo";
+	font-display: swap;
+	src: url("../fonts/woff/NothingYouCouldDo-Regular.woff") format("woff"), url("../fonts/woff2/NothingYouCouldDo-Regular.woff2") format("woff2");
+	font-weight: 400;
+	font-style: normal;
+}
+

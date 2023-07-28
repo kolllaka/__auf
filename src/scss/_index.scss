@@ -58,11 +58,8 @@
 		margin-bottom: 50px;
 		span{
 			color: $optional;
-			font-family: Nothing You Could Do;
+			font-family: "NothingYouCouldDo";
 			font-size: 96px;
-			font-style: normal;
-			font-weight: 400;
-			line-height: normal;
 		}
 	}
 
@@ -110,15 +107,13 @@
 	// .heropage__title
 	&__title {
 		color: $white;
-		font-family: Maven Pro;
+		font-family: "MavenPro";
 		font-size: 96px;
-		font-style: normal;
 		font-weight: 600;
-		line-height: normal;
 		span{
 			padding-left: 200px;
 			display: block;
-			font-family: Nothing You Could Do;
+			font-family: "NothingYouCouldDo";
 		}
 		margin-bottom: 60px;
 	}
@@ -127,7 +122,7 @@
 	&__text {
 		span{
 			color: $white;
-			font-family: Maven Pro;
+			font-family: "MavenPro";
 			font-size: 24px;
 			font-style: normal;
 			font-weight: 500;
@@ -233,10 +228,8 @@
 
 	// .aboutme__title
 	&__title {
-		font-family: Nothing You Could Do;
+		font-family: "NothingYouCouldDo";
 		font-size: 64px;
-		font-style: normal;
-		font-weight: 400;
 		line-height: 125%; /* 80px */
 
 		margin-bottom: 10px;
@@ -246,7 +239,7 @@
 	&__text {
 		max-width: 550px;
 
-		font-family: Maven Pro;
+		font-family: "MavenPro";
 		font-size: 32px;
 		font-style: normal;
 		font-weight: 400;
@@ -293,7 +286,7 @@
 	// .card__title
 	&__title {
 		color: $white;
-		font-family: Maven Pro;
+		font-family: "MavenPro";
 		font-size: 36px;
 		font-style: normal;
 		font-weight: 700;
@@ -304,7 +297,7 @@
 	&__text {
 		color: $white;
 		text-align: center;
-		font-family: Maven Pro;
+		font-family: "MavenPro";
 		font-size: 20px;
 		font-style: normal;
 		font-weight: 400;
@@ -317,7 +310,7 @@
 			display: block;
 
 			color: $white;
-			font-family: Maven Pro;
+			font-family: "MavenPro";
 			font-size: 24px;
 			font-style: normal;
 			font-weight: 400;
@@ -328,7 +321,7 @@
 	// .card__cost
 	&__cost {
 		color: $white;
-		font-family: Maven Pro;
+		font-family: "MavenPro";
 		font-size: 36px;
 		font-style: normal;
 		font-weight: 500;
@@ -381,7 +374,7 @@
 		margin-bottom: 40px;
 		span {
 			color: $white;
-			font-family: Maven Pro;
+			font-family: "MavenPro";
 			font-size: 64px;
 			font-style: normal;
 			font-weight: 600;
@@ -404,7 +397,7 @@
 			padding: 16px 15px;
 
 			color: $white;
-			font-family: Maven Pro;
+			font-family: "MavenPro";
 			font-size: 24px;
 			font-style: normal;
 			font-weight: 400;
@@ -424,7 +417,7 @@
 			height: 224px;
 
 			color: $white;
-			font-family: Maven Pro;
+			font-family: "MavenPro";
 			font-size: 24px;
 			font-style: normal;
 			font-weight: 400;
@@ -515,7 +508,7 @@
 
 		span {
 			color: $white;
-			font-family: Maven Pro;
+			font-family: "MavenPro";
 			font-size: 20px;
 			font-style: normal;
 			font-weight: 400;
