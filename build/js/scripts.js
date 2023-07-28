@@ -92,6 +92,7 @@ const swiper = new Swiper('.swiper', {
 	centerInsufficientSlides: true,
 	spaceBetween: 60,
 	speed: 800,
+	initialSlide: 1,
 
 	// If we need pagination
 	pagination: {
