@@ -416,6 +416,10 @@ a:active {
   min-height: 100vh;
 }
 
+.page__slider {
+  margin-top: 10%;
+}
+
 .page__title {
   display: -webkit-box;
   display: -ms-flexbox;
