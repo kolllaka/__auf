@@ -65,6 +65,8 @@ document.addEventListener("click", (e) => {
 	if (e.target.classList.contains("poppupgallery__body") || e.target.closest(".poppupgallery__close")) {
 		poppupgallery.classList.remove("show")
 		document.body.classList.remove("locked")
+		poppupgallery.querySelector("img").src = ""
+		poppupgallery.querySelector("img").alt = ""
 
 		return
 	}
