@@ -12,6 +12,7 @@ let opacityMaxHeight = 200
 let isShow = false
 
 mathWidthOfLine = () => {
+	console.log(window.pageYOffset);
 	if (window.pageYOffset <= opacityMaxHeight) {
 		header.classList.add("show")
 		header.style.opacity = 1 - (window.pageYOffset / opacityMaxHeight)
