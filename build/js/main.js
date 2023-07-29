@@ -8,12 +8,13 @@ const maxHeightPage = Math.max(
 );
 let scrollLineWidthMax = 60
 let scrollLineWidthMin = 10
+let opacityMaxHeight = 200
 let isShow = false
 
 mathWidthOfLine = () => {
-	if (window.pageYOffset <= 60) {
+	if (window.pageYOffset <= opacityMaxHeight) {
 		header.classList.add("show")
-		header.style.opacity = 1 - (window.pageYOffset / 60)
+		header.style.opacity = 1 - (window.pageYOffset / opacityMaxHeight)
 		isShow = true
 	} else if (isShow) {
 		isShow = false
