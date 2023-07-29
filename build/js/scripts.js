@@ -26,8 +26,9 @@ let scrollLineWidthMin = 10
 let isShow = false
 
 mathWidthOfLine = () => {
-	if (window.pageYOffset == 0) {
+	if (window.pageYOffset <= 60) {
 		header.classList.add("show")
+		header.style.opacity = 1 - (window.pageYOffset / 60)
 		isShow = true
 	} else if (isShow) {
 		isShow = false
