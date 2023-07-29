@@ -5,6 +5,7 @@
 	height: 105px;
 	// background-color: rgba($color: #E7E8E2, $alpha: .2);
 	transition: all 0.3s ease 0s;
+	opacity: 0;
 	&.show {
 		transition: all 0.3s ease 0s;
 	}
