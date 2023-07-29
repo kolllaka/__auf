@@ -1,4 +1,5 @@
 // header scroll meter
+const header = document.querySelector("header")
 const scrollLine = document.getElementById('scrollLine');
 const maxHeightPage = Math.max(
 	document.body.scrollHeight, document.documentElement.scrollHeight,
@@ -7,14 +8,48 @@ const maxHeightPage = Math.max(
 );
 let scrollLineWidthMax = 60
 let scrollLineWidthMin = 10
+let isShow = false
 
 mathWidthOfLine = () => {
+	if (window.pageYOffset == 0) {
+		header.classList.add("show")
+		isShow = true
+	} else if (isShow) {
+		isShow = false
+		header.classList.remove("show")
+	}
+
 	scrollLine.style.width = scrollLineWidthMax - (scrollLineWidthMax - scrollLineWidthMin) * (window.pageYOffset / (maxHeightPage - document.documentElement.clientHeight)) + "%"
 }
 mathWidthOfLine()
 
 addEventListener("scroll", () => {
 	mathWidthOfLine()
+})
+
+
+// Poppup 
+// const gallery = document.querySelector(".gallery")
+const poppupgallery = document.querySelector(".poppupgallery")
+document.addEventListener("click", (e) => {
+	if (e.target.closest(".gallery__item")) {
+		const src = e.target.closest(".gallery__item").querySelector("img").src
+		const alt = e.target.closest(".gallery__item").querySelector("img").alt
+
+		document.body.classList.add("locked")
+		poppupgallery.querySelector("img").src = src
+		poppupgallery.querySelector("img").alt = alt
+		poppupgallery.classList.add("show")
+
+		return
+	}
+
+	if (e.target.classList.contains("poppupgallery__body") || e.target.closest(".poppupgallery__close")) {
+		poppupgallery.classList.remove("show")
+		document.body.classList.remove("locked")
+
+		return
+	}
 })
 
 

@@ -2,12 +2,6 @@
 	<div class="container">
 		<div class="header__body">
 			<nav class="header__navbar burger">
-				<div class="header__logo burger__header">
-					<a class="logo" href="#">
-						Frank Martinez
-					</a>
-				</div>
-
 				<div class="header__menu burger__menu">
 					<ul class="header__links">
 						<li>
@@ -20,6 +14,17 @@
 								About
 							</a>
 						</li>
+					</ul>
+				</div>
+
+				<div class="header__logo burger__header">
+					<a class="logo" href="#">
+						Frank Martinez
+					</a>
+				</div>
+
+				<div class="header__menu burger__menu">
+					<ul class="header__links">
 						<li>
 							<a href="#services" class="header__link">
 								Services
@@ -28,11 +33,6 @@
 						<li>
 							<a href="#reviews" class="header__link">
 								Reviews
-							</a>
-						</li>
-						<li>
-							<a href="#сontacts" class="header__link">
-								Contacts
 							</a>
 						</li>
 					</ul>

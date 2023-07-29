@@ -1,3 +1,3 @@
 // Custom Scripts
-@@include('libs/swiper.min.js')
-@@include('main.js')
+@@include('./libs/swiper.min.js')
+@@include('./main.js')
