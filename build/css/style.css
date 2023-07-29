@@ -184,8 +184,8 @@ a:active {
   -webkit-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
-  border: 1px solid #FAFAFA;
-  background-color: transparent;
+  border: 1px solid transparent;
+  background-color: linear-gradient(0deg, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0.2) 100%), #408180;
 }
 
 .btn:active {
