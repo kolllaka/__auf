@@ -185,7 +185,9 @@ a:not(.btn):active {
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
   border: 1px solid transparent;
-  background-color: linear-gradient(0deg, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0.2) 100%), #408180;
+  background: -webkit-gradient(linear, left bottom, left top, from(rgba(255, 255, 255, 0.2)), to(rgba(255, 255, 255, 0.2))), #408180;
+  background: -o-linear-gradient(bottom, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0.2) 100%), #408180;
+  background: linear-gradient(0deg, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0.2) 100%), #408180;
 }
 
 .btn:active {
