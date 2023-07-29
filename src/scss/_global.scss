@@ -41,11 +41,11 @@ body {
 	overflow-x: hidden;
 }
 
-a:not(.btn) {
-	&:hover{
+a {
+	&:not(.btn):hover{
 		opacity: .7;
 	}
-	&:active{
+	&:not(.btn):active{
 		opacity: .3;
 	}
 }
