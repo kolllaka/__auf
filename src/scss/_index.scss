@@ -48,7 +48,9 @@
 
 	// .page__reviews
 	&__reviews {
-		margin: 0 -25%;
+		.page__body {
+			margin: 0 -25%;
+		}
 	}
 
 	// .page__slider

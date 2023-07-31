@@ -413,7 +413,7 @@ a:not(.btn):active {
   min-height: 100vh;
 }
 
-.page__reviews {
+.page__reviews .page__body {
   margin: 0 -25%;
 }
 
