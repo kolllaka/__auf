@@ -414,7 +414,7 @@ a:not(.btn):active {
 }
 
 .page__reviews {
-  min-height: 100vh;
+  margin: 0 -25%;
 }
 
 .page__slider {
