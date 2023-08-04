@@ -1042,6 +1042,7 @@ a:not(.btn):active {
 
 .cartslider__body {
   padding: 50px 0;
+  max-width: 280px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1050,10 +1051,6 @@ a:not(.btn):active {
       -ms-flex-direction: column;
           flex-direction: column;
   gap: 32px;
-}
-
-.cartslider__text {
-  max-width: 280px;
 }
 
 .cartslider__text span {
