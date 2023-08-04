@@ -25,6 +25,10 @@
 // Body
 body {
 	font-family: $fontMain;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	
 	&.locked{
 		overflow: hidden;
 	}
